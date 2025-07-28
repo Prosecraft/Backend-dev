@@ -1,0 +1,9 @@
+com\prosecraft\auth\model\User$UserBuilder.class
+com\prosecraft\auth\JwtAuthenticationFilter.class
+com\prosecraft\auth\SecurityConfig.class
+com\prosecraft\auth\AuthController.class
+com\prosecraft\auth\JwtUtil.class
+com\prosecraft\auth\model\User.class
+com\prosecraft\auth\JwtAuthenticationFilter$1.class
+com\prosecraft\auth\UserRepository.class
+com\prosecraft\auth\AuthServiceApplication.class

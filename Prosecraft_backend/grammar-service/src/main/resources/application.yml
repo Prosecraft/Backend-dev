@@ -1,0 +1,18 @@
+server:
+  port: 8083
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/prosecraft_project
+    username: gadielmenz
+    password: group52
+  jpa:
+    hibernate:
+      ddl-auto: update
+  application:
+    name: grammar-service
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka

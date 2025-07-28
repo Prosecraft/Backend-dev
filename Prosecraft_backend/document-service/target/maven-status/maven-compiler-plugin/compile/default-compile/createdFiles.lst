@@ -1,0 +1,9 @@
+com\prosecraft\document\DocumentRepository.class
+com\prosecraft\document\DocumentModel.class
+com\prosecraft\document\DocumentController.class
+com\prosecraft\document\JwtAuthenticationFilter.class
+com\prosecraft\document\JwtUtil.class
+com\prosecraft\document\JwtAuthenticationFilter$1.class
+com\prosecraft\document\SecurityConfig.class
+com\prosecraft\document\DocumentServiceApplication.class
+com\prosecraft\document\DocumentModel$DocumentModelBuilder.class
