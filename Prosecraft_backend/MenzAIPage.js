@@ -13,11 +13,11 @@ import {
 } from "react-native";
 import axios from "axios";
 
-export default function LinksApp({ navigation }) {
+export default function ProsecraftApp({ navigation }) {
   const [messages, setMessages] = useState([
     {
       id: "1",
-      text: "Hello! I'm Links, your AI assistant. How can I help you today?",
+      text: "Hello! I'm Prosecraft, your AI assistant. How can I help you today?",
       sender: "bot",
     },
   ]);
@@ -47,8 +47,8 @@ export default function LinksApp({ navigation }) {
     setInput("");
     setIsLoading(true);
 
-    // Custom system prompt for Links AI
-    const systemPrompt = `You are Links, a modern AI assistant. You are helpful, intelligent, and concise. Provide clear, accurate responses while maintaining a professional yet approachable tone.`;
+    // Custom system prompt for Prosecraft AI
+    const systemPrompt = `You are Prosecraft, a modern AI assistant. You are helpful, intelligent, and concise. Provide clear, accurate responses while maintaining a professional yet approachable tone.`;
 
     try {
       const response = await axios.post(
